@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeCompany.DB\EmployeeCompany.DB.csproj" />
+    <ProjectReference Include="..\EmployeeCompany.Model\EmployeeCompany.Model.csproj" />
+    <ProjectReference Include="..\EmployeeCompany.Repository\EmployeeCompany.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
